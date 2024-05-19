@@ -34,10 +34,10 @@ export default function App() {
         <h1>Lista de Contatos</h1>
         <div className="btnActions">
           <button onClick={() => setIsCreateContactOpen(!isCreateContactOpen)}>
-            Criar usuário
+            Criar Contato
           </button>
           <button className="btnCancel" onClick={clearLocalStorage}>
-            Deletar Todos os Usuários
+            Deletar Todos os Contatos
           </button>
         </div>
       </header>
